@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة ماريو متعددة المستويات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>لعبة ماريو وليد</h1>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <p id="score">النقاط: <span id="scoreValue">0</span></p>
+    <p id="level">المستوى: <span id="levelValue">1</span></p>
+    <script src="game.js"></script>
+</body>
+</html>
